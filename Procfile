@@ -1,1 +1,1 @@
-web: npm install && npm start
+web: npm install && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js
