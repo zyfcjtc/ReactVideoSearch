@@ -8,8 +8,8 @@
     "url": "https://github.com/zyfcjtc/ReactVideoSearch.git"
   },
   "scripts": {
-    "start": "npm install",
-    "postinstall": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "preinstall": "npm install",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
